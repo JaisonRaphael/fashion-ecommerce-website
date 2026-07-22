@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lacoste Clothing</title>
+    <link rel="icon" href="img/Lacoste-Symbol.png">    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<style>
+    .gradient-custom-2 {
+/* fallback for old browsers */
+background: #fccb90;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+.gradient-form {
+height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+}
+}
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.slide{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.navbar {
+    background-color: rgb(3, 18, 0);
+    padding: 10px 20px;
+    color: #fff;
+  
+}
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-top img {
+    height: 40px;
+    padding-left: 25px;
+    margin-top: 12px;
+}
+.navbar-top .search-bar {
+    width: 1080px;
+    margin: 0 20px;
+}
+.navbar-top .search-bar input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 12px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 1100px;
+    background-color: aliceblue;
+
+}
+.navbar-top .icons {
+    display: flex;
+    gap: 25px;
+    font-size: xx-large;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 20px
+}
+
+.navbar-top .icons svg {
+    font-size: 24px;
+    cursor: pointer;
+}
+.navbar-bottom {
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+}
+.navbar-bottom a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-bottom a:hover {
+    color: #216f25;
+}
+</style>
+<body>
+    <div class="sticky">
+        <div class="slide">
+        <div id="tr" class="carousel slide" data-bs-ride="carousel" style="transition: 0.1s;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p>SIGN UP & GET 15% OFF</p>
+              </div>
+              <div class="carousel-item">
+                <p>FREE DELIVERY, RETURN & EXCHANGE</p>
+              </div>
+              <div class="carousel-item">
+                <p>EXTRA 5% OFF ON PREPAID ORDERS</p>
+              </div>
+            </div>  
+          </div>
+        </div>
+        <div class="navbar">
+          <div class="navbar-top">
+              <img src="img/Lacoste-Symbol.png" alt="Logo">
+              <div class="search-bar">
+                  <input type="text" placeholder="Search...">
+              </div>
+              <div class="icons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg |" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0m-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                </svg>
+              </div>
+          </div>
+          <div class="navbar-bottom">
+            <a href="home.html">Home</a>
+            <a href="men.html">Men</a>
+            <a href="WOMEN.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="sport.html">Sport</a>
+            <a href="shoe.html">Shoe</a>
+            <a href="login.html" style="padding-left: 240px;">Login/SignUp</a>
+          </div>
+      </div>
+    </div>
+    <section class="h-100 gradient-form" style="background-color: #000000;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-xl-10">
+              <div class="card rounded-3 text-black">
+                <div class="row g-0">
+                  <div class="col-lg-6">
+                    <div class="card-body p-md-5 mx-md-4">
+      
+                      <div class="text-center">
+                        <img src="img/Lacoste-Symbol.png"
+                          style="width: 185px;" alt="logo">
+                        <h4 class="mt-1 mb-5 pb-1">Welcome To LaCoste</h4>
+                      </div>
+      
+                      <form>
+                        <p>Please login to your account</p>
+      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="email" id="form2Example11" class="form-control"
+                            placeholder="Phone number or email address" />
+                          <label class="form-label" for="form2Example11">Username</label>
+                        </div>
+      
+                        <div data-mdb-input-init class="form-outline mb-4">
+                          <input type="password" id="form2Example22" class="form-control" />
+                          <label class="form-label" for="form2Example22">Password</label>
+                        </div>
+      
+                        <div class="text-center pt-1 mb-5 pb-1">
+                          <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
+                            in</button>
+                          <a class="text-muted" href="#!">Forgot password?</a>
+                        </div>
+      
+                        <div class="d-flex align-items-center justify-content-center pb-4">
+                          <p class="mb-0 me-2">Don't have an account?</p>
+                          <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-danger">Create new</button>
+                        </div>
+      
+                      </form>
+      
+                    </div>
+                  </div>
+                  <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                    <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                      <h3 class="mb-4">Lacoste, a transgenerational brand</h3>
+                      <p class="small mb-0"> At the crossroads of sport and fashion, Lacoste librates and creates movement in each person’s life by encouraging self-expression. In each collection and every line, the timeless elegance of Lacoste is captured by a combination of creativity and tradition. A blend that enables everyone to develop their personal style by absorbing and reinterpreting the brand’s rich heritage. By making it their own.
+
+                        The aura of the crocodile is reinforced with every generation that wears it, becoming a sign of unity that goes beyond style. Passed down from country to country and through the generations, from one friend to another, Lacoste clothing is steeped in emotional ties that promote it to icon status.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
